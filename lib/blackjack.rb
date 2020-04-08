@@ -21,3 +21,10 @@ end
 def end_game(num)
 puts "Sorry, you hit #{num}. Thanks for playing!"
 end
+
+def initial_round
+total =0
+total +=deal_card
+total += deal_card
+total
+end
