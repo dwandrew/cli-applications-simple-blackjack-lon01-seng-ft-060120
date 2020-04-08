@@ -31,3 +31,7 @@ display_card_total(total)
 total
 
 end
+
+def invalid_command
+  puts 'Please enter a valid command'
+end
