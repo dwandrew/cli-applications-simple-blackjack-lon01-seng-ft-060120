@@ -45,8 +45,9 @@ def hit?(num)
   else if input =='s'
     return num;
   else
-    invalid_command
-   prompt_user
+    invalid_command;
+   prompt_user;
+   get_user_input;
   end
 end
 end
