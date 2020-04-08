@@ -19,7 +19,11 @@ def get_user_input
 end
 
 def end_game(num)
-puts "Sorry, you hit #{num}. Thanks for playing!"
+if num == 21
+  puts "BLACKJACK!"
+else
+  puts "Sorry, you hit #{num}. Thanks for playing!"
+end
 end
 
 def initial_round
