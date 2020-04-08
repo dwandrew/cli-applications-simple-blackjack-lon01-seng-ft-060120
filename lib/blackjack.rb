@@ -44,10 +44,9 @@ def hit?(num)
     return num
   else if input =='s'
     return num;
-  else if input !='h'|| input != 's';
+  else
     invalid_command
    prompt_user
   end
-end
 end
 end
