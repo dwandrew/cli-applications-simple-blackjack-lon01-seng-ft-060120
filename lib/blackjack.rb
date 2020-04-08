@@ -10,6 +10,8 @@ end
 
 def display_card_total(num)
   puts "Your cards add up to #{num}"
+  p num
+
   # code #display_card_total here
 end
 
